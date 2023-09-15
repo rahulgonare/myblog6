@@ -16,7 +16,7 @@ public class Event {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public long id;
+    public long ids;
 
     @ManyToOne
     @JoinColumn(name = "user_id")
